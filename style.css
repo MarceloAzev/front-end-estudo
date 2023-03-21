@@ -48,17 +48,28 @@ body{
 
 .apresentacao_links{
     display: flex;
+    flex-direction: column;
     justify-content: space-between;
+    align-items: center;
+    gap: 32px;
+}
+
+.apresenta_links_substitulo{
+    font-family: 'Krona One', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
 }
 
 .apresentacao_links_links{
-    background-color: #22D4FD;
-    width: 280px;
+    /* background-color: #22D4FD; */
+    width: 378px;
     text-align: center;
-    border-radius: 16px;
+    border-radius: 8px;
+    border: 2px solid #22D4FD; /* border: espessura-da-borda formato-da-borda cor-da-borda */
+    border-color: #22D4FD;
     font-size: 24px;
     padding: 21.5px 0;
-    color: #000;
+    color: #F6F6F6;
     font-family: 'Montserrat', sans-serif;
     font-weight: 600;
     text-decoration: none;
