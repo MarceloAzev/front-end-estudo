@@ -1,13 +1,25 @@
   @import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@400;600&display=swap');
 
 body{
-    height: 100vh;
+    /* height: 100vh; */
     box-sizing: border-box;
     background-color: black;
     color: #F6F6F6;
 }
 
-.destaqueTitulo{
+.cabecalho{
+    padding: 2% 0%  0% 15%;
+}
+
+.cabecalho_menu{
+    display: flex;
+    gap: 80px;
+}
+
+.cabecalho_menu_link{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    font-weight: 600;
     color: #22D4FD;
 }
 
@@ -17,7 +29,7 @@ body{
 }
 
 .apresentacao{
-    margin: 10% 15%;
+    padding: 5% 15%;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -33,6 +45,10 @@ body{
     font-size: 36px;
     font-family: 'Krona One', sans-serif;
  }
+
+ .destaqueTitulo{
+    color: #22D4FD;
+}
 
 .apresentacao-paragrafo{
     font-size: 24px;
@@ -62,6 +78,9 @@ body{
 
 .apresentacao_links_links{
     /* background-color: #22D4FD; */
+    display: flex;
+    justify-content: center;
+    gap: 16px;
     width: 378px;
     text-align: center;
     border-radius: 8px;
@@ -73,4 +92,18 @@ body{
     font-family: 'Montserrat', sans-serif;
     font-weight: 600;
     text-decoration: none;
+}
+
+.apresentacao_links_links:hover { /* hover é usado pra sublinhar ou marcar quando passa o mouse por cima de uma opção*/
+    background-color: #272727;
+}
+
+.rodape{
+    padding: 23.64px; /* padding é de dentro pra fora e margin de fora pra dentro*/
+    color: black;
+    background-color: #22D4FD;
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    font-size: 24px;
+    font-weight: 400;
 }
